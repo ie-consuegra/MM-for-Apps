@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MM for Apps Sample</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  
+  <link rel="stylesheet" href="css/mmforapps.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="white">
+      <div class="nav-wrapper white">
+
+        <a href="#" class="sidenav-trigger hide-on-med-and-large" data-target="nav-mobile"><i class="material-icons grey-text darken-4-text">menu</i></a>
+
+        <div class="nav-form-wrapper">
+          <form action="" class="">
+            <div class="input-field">
+              <input placeholder="Search" id="search" type="search" required>
+              <label for="search" class="label-icon"><i class="material-icons grey-text darken-4-text">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Sidenav -->
+    <ul class="sidenav sidenav-fixed" id="nav-mobile">
+      <li class="brand">
+        <a href="">
+          <!-- App icon  -->
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAWxJREFUWIXt1jFOw1AMBuDfLRIDIxKCK5CVq3CP5hwIqRISl+hREBt07ApLlYkBidRM9oCSPNvPYnr/9JK4zS9/Qwu0tLQshqIfPPZ9R+PqrTjIGM7XY3ex3X5E3rOKfAgAMK7vLWNEOHyPZ3fR14QLEthUEKADrfh/Cx77vgNwWxxkDAwemHH9tdncRN4V26CDV85R5lBBD6+egszugl5evQwy+zcY4JVEmN0FI7x6J8DsKhjl1dsBZt8GK3glXmZXwRpefeJkNhes5dXHTmb7BhN4JR5mc8EMXp1wMJsKOnjfT8C+OOZgtm3QzMs7YrxaZq3MpoJW3hPT7mekF9N3GpmLBT28l0+P+6vnh08GFf89W5nLG3Tw6jmRuVjQwyvnTObFgl5eucxkXt5ggFfvJTEvFozwSrKYZwtGeSVZzPMbrODVZwnMswVreCUZzJMFa3klGczTG0zg1ZlK5smCGbyS7N/mlpaWP/kF0BzpDndfPl0AAAAASUVORK5CYII=" alt="">
+          <span class="name">MM for Apps</span>
+        </a>
+      </li>      
+      <li><a href="#" class="red lighten-5 red-text text-darken-2">Dashboard<i class="material-icons red-text text-darken-2">dashboard</i></a></li>
+      <li><a class="subheader grey-text text-darken-3">CRM</a></li>
+      <li>
+      <li><a href="#">Leads<i class="material-icons grey-text text-darken-3">person_pin</i></a></li>
+      <li><a href="#">Accounts<i class="material-icons grey-text text-darken-3">business</i></a></li>
+      <li><a href="#">Contacts<i class="material-icons grey-text text-darken-3">person_outline</i></a></li>
+      <li><a class="subheader grey-text text-darken-3">INVENTORY</a></li>
+      <li><a href="#">Items<i class="material-icons grey-text text-darken-3">format_list_bulleted</i></a></li>
+      <li><a href="#">Purchases<i class="material-icons grey-text text-darken-3">shopping_basket</i></a></li>
+      <li><a href="#">Orders<i class="material-icons grey-text text-darken-3">local_grocery_store</i></a></li>     
+      <li><div class="divider"></div></li>
+      <li><a href="#">Configuration<i class="material-icons grey-text text-darken-3">settings</i></a></li>
+      <li><a href="#">Help and comments<i class="material-icons grey-text text-darken-3">help_outline</i></a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="#">About MM for Apps</a></li>
+    </ul>
+
+    <!-- Action button -->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large waves-effect light-blue darken-3 z-depth-3">
+        <i class="large material-icons white-text">add</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating red"><i class="material-icons">delete</i></a></li>
+        <li><a class="btn-floating yellow darken-3"><i class="material-icons">edit</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">playlist_add</i></a></li>        
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="row">
+      <div class="content-wrapper">
+        <div class="col s12">
+          <div class="container">
+            <div class="section">
+              <div class="row">
+                <div class="col s12 m8">
+                  <div class="card">
+                    <div class="card-content">
+                        <span class="right">
+                          <i class="material-icons">account_balance</i>
+                        </span>
+                        <span class="card-title" id="balance">Balance: $210,000</span>
+                        <br>
+                        <p><strong>Last registry</strong></p>
+                        <p>(Outcome) Bio-Blister packs: $5,400</p>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#" class="red-text text-darken-2">View all</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="card yellow lighten-3">
+                    <div class="card-content">
+                        <span class="card-title">Notes</span>
+                        <p>MM for Apps looks awesome!</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#" class="red-text text-darken-2">Notes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-content">
+                        <span class="right">
+                          <i class="material-icons">history</i>
+                        </span>
+                        <span class="card-title">History</span>
+                        <br>
+                        <p><strong>Last 3 months</strong></p>
+                        <table class="striped">
+                          <thead>
+                            <tr>
+                                <th>Month</th>
+                                <th>Income</th>
+                                <th>Outcome</th>
+                                <th>Balance</th>
+                            </tr>
+                          </thead>
+                  
+                          <tbody>
+                            <tr>
+                              <td>June</td>
+                              <td>$59,110</td>
+                              <td>$31,920</td>
+                              <td>$28,800</td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>$65,400</td>
+                              <td>$33,750</td>
+                              <td>$32,310</td>
+                            </tr>
+                            <tr>
+                              <td>August</td>
+                              <td>$64,500</td>
+                              <td>$34,500</td>
+                              <td>$30,200</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    <div class="card-action">
+                      <a href="#" class="red-text text-darken-2">View annual report</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+  <script>
+    M.AutoInit();
+  </script>
+</body>
+</html>
